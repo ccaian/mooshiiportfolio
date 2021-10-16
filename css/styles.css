@@ -56,25 +56,52 @@ h1 {
   margin: 0.67em 0;
 }
 
+h2{
+  font-size: 1.5em;
+  opacity: 0.8;
+  color: white;
+}
+p{
+  font-size: 0.9em;
+  opacity: 0.7;
+  color: white;
+}
+
+.work-img{
+  margin-bottom: 5%;
+}
+.work-text{
+  margin:5%;
+}
 .navbar{
+  margin-bottom: 5%;
   background-color: black;
 }
 .gallery .container {
             background: #f9f9f9;
-        }
+}
 
-        .flex-column {
-            max-width: 350px;
-        }
+.flex-column {
+    max-width: 350px;
+}
 
-        img {
-            margin: 5px;
-        }
+img {
+    margin: 5px;
+}
 
-        .scale {
-            transform: scaleY(1.05);
-            padding-top: 5px;
-        }
+.scale {
+    transform: scaleY(1.05);
+    padding-top: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* For mobile phones: */
+
+  .work-img{
+    margin-right: 2%;
+      margin-top: 10%;
+  }
+}
 /* Grouping content
    ========================================================================== */
 
